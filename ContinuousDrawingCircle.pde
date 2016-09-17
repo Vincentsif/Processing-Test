@@ -7,12 +7,11 @@ smooth();
 
 void draw(){
 if(mousePressed){
-
-  fill(75,68,63);
+  fill(75,68,63);//color
 }else{
 fill(255);
 }
 
-ellipse(mouseX,mouseY,50,50);
+ellipse(mouseX,mouseY,50,50);//Continuous change of foucus ，draw the circle
 
 }
